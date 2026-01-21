@@ -17,7 +17,7 @@ public class FirstNonRepeat{
             }
         }
         if(count==1){
-            System.out.println("First mnon-repeated character:"+ch);
+            System.out.println("First non-repeated character:"+ch);
             found=true;
             break;
         }
