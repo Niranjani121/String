@@ -7,7 +7,7 @@ public class MostFrequentChar{
         String str=sc.nextLine();
 
         int maxCount=0;
-        char mostFrequent='';
+        char mostFrequent=' ';
 
         for(int i=0;i<str.length();i++){
            char ch=str.charAt(i);
