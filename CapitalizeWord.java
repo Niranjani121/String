@@ -5,15 +5,16 @@ public class CapitalizeWord {
            Scanner sc=new Scanner(System.in);
 
            System.out.println("Enter a String:");
-           String input=sc.nextLine();
+           String str=sc.nextLine();
 
-           String[] words=input.split("");
-           String result=" ";
+           String[] words=str.split("");
+           String result="";
 
            for(int i=0;i<words.length;i++){
             String word=words[i];
+            
             if(word.length()>0){
-                String FirstLetter=word.substring(0,1).toUpperCase();
+                String FirstLetter=word.substring(0).toUpperCase();
                 String remaining=word.substring(1).toLowerCase();
                 result=result+FirstLetter+remaining+"";
 
