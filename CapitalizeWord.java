@@ -13,7 +13,9 @@ public class CapitalizeWord {
            for(int i=0;i<words.length;i++){
             String word=words[i];
             if(word.length()>0){
-                result=result+word.substring(0,1).toUpperCase()+word.substring(1)+" ";
+                String FirstLetter=word.substring(0,1).toUpperCase();
+                String remaining=word.substring(1).toLowerCase();
+                result=result+FirstLetter+remaining+"";
 
             }
            }
