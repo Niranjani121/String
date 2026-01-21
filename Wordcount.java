@@ -7,17 +7,14 @@ public class Wordcount{
         String str=sc.nextLine();
 
         int count=0;
-        boolean word=false;
+        String[] words=str.trim().split("");
 
-        for(int i=0 ; i<str.length(); i++){
-            if(str.charAt(i)!=''&&!word ){
+        for(int i=0 ; i<words.length; i++){
+            if(!words[i].equals("")){
                 count++;
-                word=true;
-            }
-            else if(str.charAt(i)==''){
-                word=false;
             }
         } System.out.println("Number of words:"+count);
-        
+        sc.close();
+
     }
 }
