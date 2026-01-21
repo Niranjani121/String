@@ -10,7 +10,7 @@ public class LongSubString{
         for(int i=0;i<s.length();i++){
             String current="";
 
-         for(int j=i;j<s.legth();j++){
+         for(int j=i;j<s.length();j++){
             char ch=s.charAt(j);
 
             if(current.indexOf(ch)!=-1){
