@@ -8,7 +8,7 @@ public class CapitalizeWord {
            String input=sc.nextLine();
 
            String[] words=input.split("");
-           String result="";
+           String result=" ";
 
            for(int i=0;i<words.length;i++){
             String word=words[i];
