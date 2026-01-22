@@ -11,5 +11,6 @@ public class WhiteSpcRemove{
 
         System.out.println("String after removing spaces:");
         System.out.println(result);
+        sc.close();
     }
 }
