@@ -25,5 +25,6 @@ public class FirstNonRepeat{
     if(found){
         System.out.println("No non-repeated character found");
     }
+    sc.close();
     }
 }
