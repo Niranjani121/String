@@ -22,5 +22,6 @@ public class CapitalizeWord {
            }
            System.out.println("After Captitalization");
            System.out.println(result.trim());
+           sc.close();
     }
 }
